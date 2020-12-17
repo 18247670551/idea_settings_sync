@@ -5,11 +5,21 @@
   <action id="AddToFavoritesPopup" />
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jpa.Execute" />
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.Submit" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Generate.Missing.Members.ES6">
@@ -25,6 +35,8 @@
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="Groovy.Shell.Execute" />
+  <action id="KotlinShellExecute" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
@@ -40,6 +52,8 @@
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Uml.ShowDiff" />
+  <action id="ViewSource" />
   <action id="openAssertEqualsDiff" />
 </keymap>
