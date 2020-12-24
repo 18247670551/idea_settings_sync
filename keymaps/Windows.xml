@@ -3,6 +3,8 @@
   <action id="ActivateFindToolWindow" />
   <action id="ActivateProjectToolWindow" />
   <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
@@ -37,6 +39,16 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="KotlinShellExecute" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
@@ -48,10 +60,12 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Uml.ShowDiff" />
   <action id="ViewSource" />
