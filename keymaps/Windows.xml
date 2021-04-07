@@ -10,14 +10,14 @@
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.Jpa.Execute" />
+  <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.Submit" />
+  <action id="DatabaseView.CopyAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="shift ctrl d" />
-  </action>
+  <action id="EditorDuplicate" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -38,6 +38,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="Groovy.Shell.Execute" />
+  <action id="GuiDesigner.Duplicate" />
   <action id="KotlinShellExecute" />
   <action id="MethodDown" />
   <action id="MethodUp" />
@@ -57,8 +58,13 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="alt f2" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -71,8 +77,14 @@
   </action>
   <action id="ShowSearchHistory" />
   <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="UML.ShowChanges" />
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="ViewSource" />
   <action id="WebOpenInAction" />
+  <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
 </keymap>
